@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?7eeupe');
+  src:  url('fonts/icomoon.eot?7eeupe#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7eeupe') format('truetype'),
+    url('fonts/icomoon.woff?7eeupe') format('woff'),
+    url('fonts/icomoon.svg?7eeupe#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ATM-Restart:before {
+  content: "\e900";
+  color: var(--color-primary-default);
+}
+.icon-Bank-Connect:before {
+  content: "\e901";
+  color: var(--color-primary-default);
+}
+.icon-Configuration:before {
+  content: "\e902";
+  color: var(--color-primary-default);
+}
+.icon-Dashboard:before {
+  content: "\e903";
+  color: var(--color-primary-default);
+}
+.icon-EJ-Docket:before {
+  content: "\e904";
+  color: var(--color-primary-default);
+}
+.icon-Hamburger-Menu:before {
+  content: "\e905";
+    color: var(--color-black);
+      font-size: 24px;
+}
+.icon-Manage-EJ:before {
+  content: "\e906";
+  color: var(--color-primary-default);
+}
+.icon-Manage-Images:before {
+  content: "\e907";
+  color: var(--color-primary-default);
+}
+.icon-minus:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-notification:before {
+  content: "\e909";
+  color: var(--color-primary-default);
+}
+.icon-plus:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-profile:before {
+  content: "\e90b";
+  color: var(--color-primary-default);
+}
+.icon-Reports:before {
+  content: "\e90c";
+  color: var(--color-primary-default);
+}
+.icon-Search:before {
+  content: "\e90d";
+  color: var(--color-primary-default);
+}
+.icon-search-header:before {
+  content: "\e90e";
+  color: var(--color-primary-default);
+}
+.icon-settings:before {
+  content: "\e90f";
+  color: var(--color-primary-default);
+}
+.icon-Sort-icon:before {
+  content: "\e910";
+  color: #868686;
+}
+.icon-Table-Sorting:before {
+  content: "\e911";
+  color: #868686;
+}
+.icon-Terminal-Connect:before {
+  content: "\e912";
+  color: var(--color-primary-default);
+}
+.icon-transaction:before {
+  content: "\e913";
+  color: var(--color-primary-default);
+}
+.icon-vertical-line:before {
+  content: "\e914";
+  color: var(--color-primary-default);
+}

@@ -1,0 +1,370 @@
+.unmatchedContainer {
+  padding: 0 12px 12px;
+}
+
+.breadcrumbHeading {
+  height: 34px;
+}
+
+.unmatchedContainer .configSelectBoxTop {
+  margin-top: 0;
+}
+
+/* Accordion */
+.unmatchedContainer .accordion-item {
+  border-radius: 8px;
+  background-color: var(--color-light-blue);
+  border: 1px solid var(--color-border-default);
+}
+
+.unmatchedContainer .accordion-header {
+  padding: 12px 12px;
+}
+
+.unmatchedContainer .accordion-header .allFiltersBtn {
+  width: 88px;
+}
+
+.unmatchedContainer .accordion-body {
+  padding: 0 12px;
+}
+
+.unmatchedContainer .accordion-body .configSelectBoxTop .col-1 {
+  padding: 0 6px;
+  width: 25%;
+  flex: inherit;
+  margin-top: 8px;
+}
+
+
+/* active */
+
+
+
+
+/* bottom */
+
+
+/* Docket Window */
+.docketWindow .nav-tabs {
+  border-bottom: none;
+  margin-top: 18px;
+}
+
+.docketWindow .nav-tabs .nav-link {
+  background-color: var(--border-box-bg);
+  border: 1px solid var(--color-border-default);
+  border-radius: 8px 8px 0px 0px;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size14);
+  color: var(--color-black);
+  padding: 9px 12px;
+}
+
+.docketWindow .nav-tabs .nav-link.active {
+  background-color: var(--color-secondary-light-defaut);
+  font-weight: var(--font-weight-600);
+  color: var(--color-primary-default);
+}
+
+.docketWindowSection {
+  background-color: var(--border-box-bg);
+  border: 1px solid var(--color-border-default);
+  border-radius: 0px 8px 8px 8px;
+  padding: 12px;
+  margin-top: 0 !important;
+}
+
+
+/* grid */
+
+
+
+/* New Css */
+
+
+.CMS-grid .cmscol {
+  width: 25%;
+  padding: 0 6px;
+}
+
+.CMS-grid .clientNameSelect {
+  margin-bottom: 12px;
+}
+
+/* Docket Window */
+.docketWindow .nav-tabs {
+  border-bottom: none;
+  margin-top: 0px;
+}
+
+
+
+/* Table */
+
+.infoxchangeTableType2 .table {
+  width: 100% !important;
+}
+
+.bankLoadingCol {
+  width: 16%;
+}
+
+.silverPlusCol {
+  width: 16%;
+}
+
+.cancelDeleteBtns {
+  margin: 18px 0;
+}
+
+.cancelDeleteBtns .btnPrimary {
+  background-color: #c54031;
+}
+
+.cancelDeleteBtns .btnPrimary:hover {
+  background-color: #c54031;
+}
+
+.cancelDeleteBtns .btnPrimaryOutline:hover {
+  background-color: var(--border-box-bg);
+}
+
+
+/* added by a */
+
+.tableContentBox .table-initial-width {
+  width: 100%;
+}
+
+
+.EjTableHeading {
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size16);
+  line-height: initial;
+  color: var(--color-black);
+  margin-top: 12px;
+}
+
+
+.infoxchangeTableType2 .table th:not(:last-child) {
+  border-right: 1px solid var(--color-light-blue);
+}
+
+.infoxchangeTableType2 .table tr td:not(:last-child) {
+  border-right: 1px solid var(--color-light-blue);
+}
+
+
+.colorPrimaryTd {
+  color: var(--color-primary-default) !important;
+  font-size: var(--font-size14);
+  font-weight: var(--font-weight-500);
+}
+
+
+.infoxchangeTableType2 .table tr th:nth-child(1) {
+  width: 19.8%;
+}
+
+.configFormatPercentageEntities {
+  width: 160px;
+  margin-left: 6px;
+}
+
+.infoXchangeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Total-row td {
+  background-color: var(--color-secondary-light-defaut);
+  font-weight: var(--font-weight-500);
+  box-shadow: none;
+}
+
+.tableBorderBox .tableContentBox.infoxchangeTableType2 {
+  max-height: unset;
+}
+
+
+.tr-purple-light {
+  color: var(--color-tr-purple-light) !important;
+  font-family: var(--font-weight-500);
+}
+
+.tr-green {
+  color: var(--color-tr-green) !important;
+  font-family: var(--font-weight-500);
+}
+
+.tr-purple {
+  color: var(--color-tr-purple) !important;
+  font-family: var(--font-weight-500);
+}
+
+
+.tr-red {
+  color: var(--color-tr-red) !important;
+  font-family: var(--font-weight-500);
+}
+
+.tr-dark-red {
+  color: var(--color-tr-dark-red) !important;
+  font-family: var(--font-weight-500);
+}
+
+.tr-dark-yellow {
+  color: var(--color-tr-yellow) !important;
+  font-family: var(--font-weight-500);
+}
+
+@media(max-width: 1440px) {
+  .infoxchangeTableType2 .table {
+    width: 1370px !important;
+  }
+
+}
+
+@media(max-width: 1366px) {
+  .infoxchangeTableType2 .table {
+    width: 1300px !important;
+  }
+
+}
+
+
+
+
+
+@media (min-width:425px) and (max-width:767px) {
+
+  .configLeftTop2 .btnPrimaryOutline,
+  .configLeftTop2 .btnPrimary {
+    width: 125px !important;
+  }
+}
+
+
+
+
+
+
+@media(max-width:768px) {
+
+  /* grid */
+
+  .configLeftBottom {
+    padding-bottom: 0px !important;
+  }
+
+  .CMS-grid .cmscol {
+    width: 33.33%;
+    padding: 0 6px;
+  }
+
+  /* nav-tabs Css */
+  .nav-mobile-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .nav-mobile-link {
+    height: 100%;
+    padding: 11px 16px;
+    white-space: nowrap;
+  }
+
+  .unmatchedContainer {
+    padding-bottom: 0;
+  }
+
+  .unmatchedContainer .accordion-body .configSelectBoxTop .col-1 {
+    width: 33%;
+  }
+
+  .tableContentBox .table-initial-width {
+    width: 1000px;
+  }
+
+  .infoxchangeTableType2 .table {
+    width: 1300px !important;
+  }
+
+}
+
+
+@media(max-width:425px) {
+
+  .CMS-grid .cmscol {
+    width: 100%;
+    padding: 0 6px;
+  }
+
+  /* nav-tabs Css */
+  .nav-mobile-tabs {
+    /* flex-wrap: nowrap; */
+    /* overflow-x: auto; */
+  }
+
+  .nav-mobile-link {
+    height: 100%;
+    padding: 11px 16px;
+    white-space: nowrap;
+  }
+
+  .breadcrumbHeading {
+    flex-direction: column-reverse;
+    align-items: flex-start !important;
+    margin: 12px 0;
+  }
+
+  .unmatchedContainer .accordion-body .configSelectBoxTop .col-1 {
+    width: 100%;
+  }
+
+  .infoxchangeTableType2 .table {
+    width: 900px !important;
+  }
+
+  .infoXchangeHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .configFormatPercentageEntities {
+    width: 160px;
+    margin-left: 0px;
+    margin-top: 6px;
+  }
+
+}
+
+@media(max-width:375px) {
+
+  /* nav-tabs Css */
+  .nav-mobile-tabs {
+    /* flex-wrap: nowrap; */
+    /* overflow-x: auto; */
+  }
+
+  .nav-mobile-link {
+    height: 100%;
+  }
+
+  .tableContentBox .table-initial-width {
+    width: 1000px;
+  }
+
+
+}
+
+
+@media(max-width:360px) {
+  .nav-search {
+    width: 107px;
+  }
+}
